@@ -1,4 +1,3 @@
-/* line 2, ../scss/_resetcss.scss */
 html,
 body,
 ul,
@@ -7,18 +6,15 @@ ol {
   padding: 0;
 }
 
-/* line 9, ../scss/_resetcss.scss */
 :before, :after {
   content: '';
   position: absolute;
 }
 
-/* line 13, ../scss/_resetcss.scss */
 body {
   background: #FC999E;
 }
 
-/* line 39, ../scss/baymax.scss */
 .baymax-shadow, .baymax-body:before, .baymax-body:after, .baymax-leg:before, .baymax-leg:after, .baymax-arm:after {
   background: #efe7e7;
   border: 1px solid #EAEAEA;
@@ -28,13 +24,11 @@ body {
   border-radius: 50%;
 }
 
-/* line 45, ../scss/baymax.scss */
 .baymax-bg, .baymax-head, .baymax-body, .baymax-body .baymax-heart, .baymax-leg, .baymax-arm {
   background: whitesmoke;
   border: 1px solid #EAEAEA;
 }
 
-/* line 50, ../scss/baymax.scss */
 .baymax {
   position: relative;
   margin: 60px auto;
@@ -42,7 +36,6 @@ body {
   height: 300px;
 }
 
-/* line 61, ../scss/baymax.scss */
 .baymax-head {
   position: absolute;
   left: 50%;
@@ -64,7 +57,7 @@ body {
   -moz-box-shadow: 0 6px 8px -5px rgba(128, 128, 128, 0.75), inset 0 -6px 8px -5px rgba(204, 204, 204, 0.5);
   box-shadow: 0 6px 8px -5px rgba(128, 128, 128, 0.75), inset 0 -6px 8px -5px rgba(204, 204, 204, 0.5);
 }
-/* line 78, ../scss/baymax.scss */
+
 .baymax-head .head-highlight {
   position: absolute;
   top: 12%;
@@ -80,7 +73,7 @@ body {
   -moz-box-shadow: 0 0 18px 9px #ffffff, 0 0 0 0 transparent;
   box-shadow: 0 0 18px 9px #ffffff, 0 0 0 0 transparent;
 }
-/* line 88, ../scss/baymax.scss */
+
 .baymax-head .baymax-eyes {
   position: relative;
   top: 10px;
@@ -94,7 +87,7 @@ body {
   width: 20px;
   background: #333333;
 }
-/* line 97, ../scss/baymax.scss */
+
 .baymax-head .baymax-eyes:before, .baymax-head .baymax-eyes:after {
   top: -3px;
   width: 6px;
@@ -105,16 +98,16 @@ body {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 105, ../scss/baymax.scss */
+
 .baymax-head .baymax-eyes:before {
   left: -2px;
 }
-/* line 108, ../scss/baymax.scss */
+
 .baymax-head .baymax-eyes:after {
   right: -2px;
 }
 
-/* line 117, ../scss/baymax.scss */
+
 .baymax-body {
   position: absolute;
   top: 18.66667px;
@@ -133,7 +126,7 @@ body {
   overflow: hidden;
   z-index: 2;
 }
-/* line 128, ../scss/baymax.scss */
+
 .baymax-body .body-highlight {
   position: absolute;
   top: 20%;
@@ -149,7 +142,7 @@ body {
   -moz-box-shadow: 0 0 45px 25px #ffffff, 0 0 0 0 transparent;
   box-shadow: 0 0 45px 25px #ffffff, 0 0 0 0 transparent;
 }
-/* line 138, ../scss/baymax.scss */
+
 .baymax-body .baymax-heart {
   position: absolute;
   top: 35px;
@@ -161,13 +154,13 @@ body {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 147, ../scss/baymax.scss */
+
 .baymax-body:before, .baymax-body:after {
   top: 55px;
   width: 15px;
   height: 40px;
 }
-/* line 153, ../scss/baymax.scss */
+
 .baymax-body:before {
   left: -8px;
   -webkit-transform: rotate(15deg);
@@ -176,7 +169,7 @@ body {
   -o-transform: rotate(15deg);
   transform: rotate(15deg);
 }
-/* line 157, ../scss/baymax.scss */
+
 .baymax-body:after {
   right: -8px;
   -webkit-transform: rotate(-15deg);
@@ -186,7 +179,6 @@ body {
   transform: rotate(-15deg);
 }
 
-/* line 165, ../scss/baymax.scss */
 .baymax-leg {
   position: absolute;
   top: 165px;
@@ -195,19 +187,19 @@ body {
   overflow: hidden;
   z-index: 1;
 }
-/* line 173, ../scss/baymax.scss */
+
 .baymax-leg:before {
   top: -50px;
   height: 100px;
   width: 30px;
 }
-/* line 179, ../scss/baymax.scss */
+
 .baymax-leg:after {
   bottom: -22px;
   height: 30px;
   width: 60px;
 }
-/* line 185, ../scss/baymax.scss */
+
 .baymax-leg .leg-highlight {
   position: absolute;
   top: 40%;
@@ -222,7 +214,7 @@ body {
   -moz-box-shadow: 0 0 16px 7px rgba(255, 255, 255, 0.8), 0 0 0 0 transparent;
   box-shadow: 0 0 16px 7px rgba(255, 255, 255, 0.8), 0 0 0 0 transparent;
 }
-/* line 194, ../scss/baymax.scss */
+
 .baymax-leg .crosspart {
   content: "";
   position: absolute;
@@ -234,7 +226,6 @@ body {
   box-shadow: inset 0px 0px 15px 0px #cccccc, 0 0 0 0 transparent;
 }
 
-/* line 206, ../scss/baymax.scss */
 .baymax-left-leg {
   left: 50%;
   margin-left: -50px;
@@ -243,15 +234,15 @@ body {
   -ms-border-radius: 20% 0 30% 50%/50% 0 30% 50%;
   border-radius: 20% 0 30% 50%/50% 0 30% 50%;
 }
-/* line 210, ../scss/baymax.scss */
+
 .baymax-left-leg:before {
   left: -20px;
 }
-/* line 213, ../scss/baymax.scss */
+
 .baymax-left-leg:after {
   left: 0;
 }
-/* line 216, ../scss/baymax.scss */
+
 .baymax-left-leg .lleg-highlight {
   left: 25px;
   -webkit-transform: rotate(-5deg);
@@ -261,7 +252,6 @@ body {
   transform: rotate(-5deg);
 }
 
-/* line 222, ../scss/baymax.scss */
 .baymax-right-leg {
   right: 50%;
   margin-right: -50px;
@@ -270,15 +260,15 @@ body {
   -ms-border-radius: 0 20% 50% 30%/0 50% 50% 30%;
   border-radius: 0 20% 50% 30%/0 50% 50% 30%;
 }
-/* line 226, ../scss/baymax.scss */
+
 .baymax-right-leg:before {
   right: -20px;
 }
-/* line 229, ../scss/baymax.scss */
+
 .baymax-right-leg:after {
   right: 0;
 }
-/* line 232, ../scss/baymax.scss */
+
 .baymax-right-leg .rleg-highlight {
   right: 20px;
   -webkit-transform: rotate(5deg);
@@ -288,7 +278,6 @@ body {
   transform: rotate(5deg);
 }
 
-/* line 238, ../scss/baymax.scss */
 .baymax-arm {
   position: absolute;
   top: 28px;
@@ -297,13 +286,13 @@ body {
   overflow: hidden;
   z-index: 1;
 }
-/* line 246, ../scss/baymax.scss */
+
 .baymax-arm:after {
   top: 60px;
   height: 50px;
   width: 25px;
 }
-/* line 252, ../scss/baymax.scss */
+
 .baymax-arm .arm-highlight {
   position: absolute;
   top: 25%;
@@ -319,7 +308,6 @@ body {
   box-shadow: 0 0 16px 7px rgba(255, 255, 255, 0.8), 0 0 0 0 transparent;
 }
 
-/* line 266, ../scss/baymax.scss */
 .baymax-left-arm {
   left: 65px;
   -webkit-transform: rotate(25deg);
@@ -332,16 +320,15 @@ body {
   -ms-border-radius: 90px 20px 20px 90px/200px 40px 40px 200px;
   border-radius: 90px 20px 20px 90px/200px 40px 40px 200px;
 }
-/* line 270, ../scss/baymax.scss */
+
 .baymax-left-arm:after {
   left: -20px;
 }
-/* line 273, ../scss/baymax.scss */
+
 .baymax-left-arm .larm-highlight {
   left: 30%;
 }
 
-/* line 278, ../scss/baymax.scss */
 .baymax-right-arm {
   right: 65px;
   -webkit-transform: rotate(-25deg);
@@ -354,13 +341,11 @@ body {
   -ms-border-radius: 20px 90px 90px 20px/40px 200px 200px 40px;
   border-radius: 20px 90px 90px 20px/40px 200px 200px 40px;
 }
-/* line 282, ../scss/baymax.scss */
+
 .baymax-right-arm:after {
   right: -20px;
 }
-/* line 285, ../scss/baymax.scss */
+
 .baymax-right-arm .rarm-highlight {
   right: 30%;
 }
-
-/*# sourceMappingURL=baymax.css.map */
